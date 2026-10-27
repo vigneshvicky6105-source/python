@@ -29,6 +29,18 @@ print("passenger Name:", passenger_name)
 print("seat number:", seat_number)
 print("ticket status:",confirmation_status)
 print("-"*30)
-print(type(train_number))
-print(train_number)
-print(train_number_str)
+
+#budget
+print("-"*7,"budget","-"*7)
+salary=25000
+food=2000
+mobile=1000
+groceries=3000
+dress=1000
+eb_bill=1000
+fuel=2000
+expense=(food+mobile+groceries+dress+eb_bill+fuel)
+print("income=",salary)
+print("expense=",expense)
+print("balance=",salary-expense)
+print("-"*22)
